@@ -16,13 +16,13 @@ const Navbar = () => {
       <div className="container mx-auto px-4 h-16 flex items-center justify-between">
         {/* Logo */}
         <Link to="/" className="flex items-center space-x-2 flex-shrink-0">
-          <span className="text-xl md:text-2xl font-heading font-bold text-primary truncate">William General Immobilier</span>
+          <span className="text-xl md:text-2xl font-heading font-bold text-primary">William General Immobilier</span>
         </Link>
 
         {/* Desktop Navigation */}
         <nav className="hidden lg:flex items-center space-x-6 text-sm font-medium">
           <Link to="/" className="text-secondary-dark hover:text-primary transition-colors">Accueil</Link>
-          <Link to="/a-propos" className="text-secondary-dark hover:text-primary transition-colors">À À Propos</Link>
+          <Link to="/a-propos" className="text-secondary-dark hover:text-primary transition-colors">À Propos</Link>
           <Link to="/catalogue" className="text-secondary-dark hover:text-primary transition-colors">Catalogue</Link>
           <Link to="/contact" className="text-secondary-dark hover:text-primary transition-colors">Contact</Link>
           {isAdmin && (
@@ -78,7 +78,7 @@ const Navbar = () => {
           >
             <div className="flex flex-col p-4 space-y-4 text-sm font-medium">
               <Link to="/" onClick={() => setIsMobileMenuOpen(false)} className="p-2 hover:bg-slate-50 rounded">Accueil</Link>
-              <Link to="/a-propos" onClick={() => setIsMobileMenuOpen(false)} className="p-2 hover:bg-slate-50 rounded">À À Propos</Link>
+              <Link to="/a-propos" onClick={() => setIsMobileMenuOpen(false)} className="p-2 hover:bg-slate-50 rounded">À Propos</Link>
               <Link to="/catalogue" onClick={() => setIsMobileMenuOpen(false)} className="p-2 hover:bg-slate-50 rounded">Catalogue</Link>
               <Link to="/contact" onClick={() => setIsMobileMenuOpen(false)} className="p-2 hover:bg-slate-50 rounded">Contact</Link>
               <Link to={user ? "/mon-compte" : "/login"} onClick={() => setIsMobileMenuOpen(false)} className="p-2 flex items-center text-primary font-bold">

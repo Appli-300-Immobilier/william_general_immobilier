@@ -10,7 +10,7 @@ const Contact = () => {
         <div className="container mx-auto px-4">
           <h1 className="text-4xl font-heading font-bold mb-4">Contactez-nous</h1>
           <p className="text-primary-light max-w-xl mx-auto">
-            Une question technique ? Un besoin urgent ? Notre équipe réagit sous 24h pour vous accompagner.
+            Une question technique ? Un besoin urgent ? Notre ééééquipe réagit sous 24h pour vous accompagner.
           </p>
         </div>
       </section>

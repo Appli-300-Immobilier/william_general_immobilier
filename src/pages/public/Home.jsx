@@ -102,11 +102,11 @@ const Home = () => {
     {
       title: (
         <>
-          L'excellence en <br /> <span className="text-primary-light italic">Éééquipements</span>
+          L'excellence en <br /> <span className="text-primary-light italic">équipements</span>
         </>
       ),
-      subtitle: 'Votre partenaire de confiance pour tous vos besoins immobiliers et professionnels.',
-      cta1: { label: 'Catalogue', link: '/catalogue', icon: true },
+      subtitle: `Votre partenaire de confiance pour tous vos besoins immobiliers et professionnels.`,
+      cta1: { label: `Catalogue`, link: '/catalogue', icon: true },
       cta2: { label: 'Expertise', link: '/contact' },
       icon: '☀️',
       iconLabel: 'Solutions Solaires',
@@ -117,9 +117,8 @@ const Home = () => {
           Votre Partenaire <br /> <span className="text-primary-light italic">Stratégique</span>
         </>
       ),
-      subtitle:
-        'William General Immobilier accompagne le développement industriel et domestique avec des solutions innovantes et durables.',
-      cta1: { label: 'À À Propos', link: '/a-propos', icon: false },
+      subtitle: `William General Immobilier accompagne le développement industriel et domestique avec des solutions innovantes et durables.`,
+      cta1: { label: `À Propos`, link: '/a-propos', icon: false },
       cta2: { label: 'Nos Secteurs', link: '#secteurs', action: scrollToSectors },
       icon: '🏢',
       iconLabel: 'Expertise Pro',
@@ -127,11 +126,10 @@ const Home = () => {
     {
       title: (
         <>
-          Une Ééquipe <br /> <span className="text-primary-light italic">Dédiée</span>
+          Une Éééééquipe <br /> <span className="text-primary-light italic">Dédiée</span>
         </>
       ),
-      subtitle:
-        "Besoin d'un devis personnalisé ou d'une assistance technique ? Nos experts vous répondent sous 24h.",
+      subtitle: `Besoin d'un devis personnalisé ou d'une assistance technique ? Nos experts vous répondent sous 24h.`,
       cta1: { label: 'Contact', link: '/contact', icon: true },
       cta2: { label: 'WhatsApp', link: 'https://wa.me/2252731937576' },
       icon: '📞',
@@ -193,7 +191,7 @@ const Home = () => {
                 >
                   <motion.h1
                     variants={itemVariants}
-                    className="text-3xl sm:text-4xl md:text-6xl lg:text-8xl font-heading font-bold leading-[1.1] tracking-tighter"
+                    className="text-3xl sm:text-4xl md:text-6xl lg:text-7xl font-heading font-bold leading-[1.1] tracking-tighter"
                   >
                     {slides[currentSlide].title}
                   </motion.h1>

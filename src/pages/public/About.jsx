@@ -6,9 +6,9 @@ const About = () => {
       {/* Hero Section */}
       <section className="bg-slate-50 py-20 border-b">
         <div className="container mx-auto px-4 text-center">
-          <h1 className="text-4xl md:text-5xl font-heading font-bold text-secondary-dark mb-6">À À Propos de William General Immobilier</h1>
+          <h1 className="text-4xl md:text-5xl font-heading font-bold text-secondary-dark mb-6">À Propos de William General Immobilier</h1>
           <p className="text-lg text-secondary max-w-3xl mx-auto leading-relaxed">
-            Votre partenaire stratégique au Cameroun pour l'éééquipement professionnel, 
+            Votre partenaire stratégique au Cameroun pour l'équipement professionnel, 
             les solutions énergétiques durables et la sécurité intelligente.
           </p>
         </div>
@@ -20,15 +20,15 @@ const About = () => {
           <div className="space-y-6">
             <h2 className="text-3xl font-heading font-bold text-primary">Notre Mission</h2>
             <p className="text-secondary leading-relaxed">
-              Afin de renforcer notre visibilité digitale, accroître nos ventes et améliorer l'expérience client, 
-              William General Immobilier s'est donné pour mission de fournir des éééquipements de haute qualité, modernes et fiables. 
+              Afin de renforcer notre visibilitéé digitale, accroître nos ventes et améliorer l'expérience client, 
+              William General Immobilier s'est donné pour mission de fournir des équipements de haute qualitéé, modernes et fiables. 
               Nous accompagnons le développement industriel et domestique au Cameroun à travers une offre diversifiée et un service premium.
             </p>
             <div className="grid grid-cols-2 gap-6 pt-4">
               <div className="space-y-2">
                 <Target className="text-primary h-8 w-8" />
                 <h4 className="font-bold">Objectif</h4>
-                <p className="text-xs text-secondary">Valoriser l'image et les activités de l'entreprise à travers l'innovation.</p>
+                <p className="text-xs text-secondary">Valoriser l'image et les activitéés de l'entreprise à travers l'innovation.</p>
               </div>
               <div className="space-y-2">
                 <ShieldCheck className="text-primary h-8 w-8" />

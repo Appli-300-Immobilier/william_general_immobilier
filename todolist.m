@@ -4,7 +4,7 @@
 - **Company Name:** William General Immobilier
 - **Directory:** william_general_immobilier
 - **Address/Contact:** 
-  - " bonapriso h�tel de l'air, Douala, Cameroon
+  - " bonapriso hétel de l'air, Douala, Cameroon
   - 
   - +237 6 58 20 48 21
   - 

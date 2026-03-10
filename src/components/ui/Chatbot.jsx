@@ -26,7 +26,7 @@ const Chatbot = () => {
 
     // Simulation réponse IA
     setTimeout(() => {
-      let botResponse = "Je transmets votre demande à notre ééquipe technique. Pouvez-vous préciser votre secteur d'activité ?";
+      let botResponse = "Je transmets votre demande à notre éééééquipe technique. Pouvez-vous préciser votre secteur d'activitéé ?";
       if (input.toLowerCase().includes('solaire')) {
         botResponse = "Nous proposons des kits solaires complets. Voulez-vous consulter nos onduleurs hybrides ou nos panneaux monocristallins ?";
       } else if (input.toLowerCase().includes('prix') || input.toLowerCase().includes('coût')) {
@@ -56,7 +56,7 @@ const Chatbot = () => {
             </div>
             <div>
                 <h3 className="font-bold text-sm">Assistant IA</h3>
-                <p className="text-[10px] opacity-80">En ligne | Ass Eééquipements</p>
+                <p className="text-[10px] opacity-80">En ligne | Ass équipements</p>
             </div>
           </div>
 
